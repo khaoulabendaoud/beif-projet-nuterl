@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,600i,700,800,900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif, Arial;
+  font-size: 20px;
+  line-height: 40px;
+  background-image: url(../Images/pexels-photo-733475.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  /* background-color: #88bde9; */
+  padding: 20px;
+}
+
+/* .container {
+    position: relative;
+} */
+
+header {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+}
+
+/* navbar style */
+.navbar {
+  margin: 0 5rem;
+  text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: -15px;
+  padding: 0;
+  overflow: hidden;
+  transform: translateY(1rem);
+  background-color: rgba(60, 99, 130, 0.5);
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgba(60, 99, 130, 1);
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+
+}
+
+
+.secondary_header {
+  transform: translateY(5rem);
+  background-color: rgba(60, 99, 130, 0.5);
+  padding: 11rem;
+  padding-left: 10rem;
+  text-align: center;
+  line-height: 3rem;
+  color: #f1f1f1;
+  margin: 3rem;
+  position: relative;
+}
+
+.secondary_header h1 {
+  overflow: hidden;
+  font-weight: 800;
+  font-size: 4rem;
+  margin-bottom: 2trem;
+}
+
+.secondary_header h2 {
+  overflow: hidden;
+  font-weight: lighter;
+}
+
+.secondary_header p {
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+
+
+
+.btn-header {
+
+  padding: 1rem;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+  width: 10rem;
+  position: absolute;
+  background: none;
+  position: relative;
+  margin-top: 50px;
+}
+
+.btn-header::before {
+  content: "";
+
+}
+
+.btn-header:after {
+  content: '';
+  position: absolute;
+  display: block;
+  border: none;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: rgba(60, 99, 130, 1.0);
+  z-index: -1;
+  transition: width 150ms ease-in-out;
+}
+
+.btn-header:hover {
+  color: white;
+  border: 2px solid #3c6382;
+
+}
+
+.btn-header:hover:after {
+  width: 10rem;
+  /* border: 2px solid  #3c6382; */
+}
+
+/* main Content */
+
+.imgContent1 {
+  background-image: url("../Images/firstImg.jfif");
+}
+
+
+.imgContent2 {
+  background-image: url("../Images/secImg.jpg");
+
+}
+
+
+.imgContent4 {
+  background-image: url("../Images/fourthImg.png");
+}
+
+.imgContent5 {
+  background-image: url("../Images/kora.jpg");
+}
+
+.imgContent {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  margin: 0px 50px;
+  height: 400px;
+  width: 100%;
+  box-shadow: 10px 10px 10px 10px;
+  color: #1c2d3a;
+  border-radius: 10px;
+
+}
+
+.imgSidebar {
+  background-color: #1e3f59;
+  width: 100%;
+  height: 100px;
+  margin: 5px;
+}
+
+.leftcolumn {
+  float: center;
+  width: 100%;
+  padding: 20px;
+
+}
+
+
+
+.card {
+
+  transform: translateY(20rem);
+  background-color: rgba(60, 99, 130, 0.5);
+  padding: 6rem;
+  padding-left: 6rem;
+  color: #f1f1f1;
+  position: relative;
+  margin: 100px;
+  display: flex;
+  margin-top: 60px;
+
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-left: 100px;
+}
+
+footer {
+  padding: 0px;
+  text-align: center;
+  background: rgba(60, 99, 130, 0.5);
+  Color: #f1f1f1;
+  margin-top: 65px;
+
+}
+
+.title {
+  margin: 0px;
+  left: 0px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.list {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin: 0;
+  left: 0;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 8mm;
+  margin-top: 300px;
+  text-align: center;
+
+}
+
+.card h1 {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+@media
